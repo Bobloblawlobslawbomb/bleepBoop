@@ -1,7 +1,8 @@
 let userArray = []
 
 function beepBoop(input) {
-  let userArray = [input]
+  //let userArray = [input]//trying to make it into an array
+  let userArray = Array.push()
   console.log(userArray)
 }
 

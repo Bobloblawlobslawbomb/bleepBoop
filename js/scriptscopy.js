@@ -6,7 +6,7 @@ let amendedArray = []
 
 
 function beepBoop(input) {
-  userArray = Array.from(Number(input))
+  let userArray = Array(input)
 }
 
 
@@ -28,4 +28,7 @@ $(document).ready(function () {
 //console.log(userArray)
 //for (let i = 0; i < input.length; i++) {
 //  userArray = 
+
 //}
+
+
