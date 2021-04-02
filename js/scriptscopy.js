@@ -6,12 +6,9 @@ let amendedArray = []
 
 
 function beepBoop(input) {
-  //let userArray = [input]
-  console.log(userArray)
-  for (let i = 0; i < input.length; i++) {
-    userArray = 
-  }
+  userArray = Array.from(Number(input))
 }
+
 
 $(document).ready(function () {
   $("#formOne").submit(function (e) {
@@ -20,3 +17,15 @@ $(document).ready(function () {
     beepBoop(personInput)
   })
 })
+
+
+
+////Array.from({length: n}, (_, i) => i + 1)
+
+
+//all below goes into beepBoop
+//let userArray = [input]
+//console.log(userArray)
+//for (let i = 0; i < input.length; i++) {
+//  userArray = 
+//}
