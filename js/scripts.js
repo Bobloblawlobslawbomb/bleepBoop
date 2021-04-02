@@ -1,11 +1,5 @@
-function beepBoop() {
-  //userArray.forEach(function (number) {
-  return (personInput);
-  //})
-
-
-  nothing update
-
+function beepBoop(input) {
+  console.log(input);
 }
 
 
