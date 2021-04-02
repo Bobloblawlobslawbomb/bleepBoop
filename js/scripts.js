@@ -1,6 +1,10 @@
 const beep = "Beep!"
 const boop = "Boop!"
 const beMy = "Won't you be my neighbor?"
+const botArray = ["Beep!", "Boop!", "Won't you be my neighbor?"]
+const userArray = []
+const amendedArray = []
+
 
 $(document).ready(function () {
   $("#formOne").submit(function (e) {
