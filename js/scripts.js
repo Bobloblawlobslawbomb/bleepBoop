@@ -6,6 +6,9 @@ function beepBoop(input) {
   console.log(userArray)
 }
 
+
+
+
 $(document).ready(function () {
   $("#formOne").submit(function (e) {
     e.preventDefault();
