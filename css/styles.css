@@ -1,3 +1,14 @@
 #result {
   display: none;
 }
+
+h1#title{
+  font-family: 'Londrina Solid', cursive;
+}
+label#number-title{
+  font-family: 'Londrina Solid', cursive;
+}
+
+span#result{
+font-family: 'Abel', sans-serif;
+}

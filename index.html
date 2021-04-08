@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang='en-US'>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Choose a Title</title>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+    integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+  <link href='css/styles.css' rel='stylesheet' type='text/css'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src='js/scripts.js'></script>
+  <link rel='preconnect' href='https://fonts.gstatic.com'>
+  <link href='https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url("img/watercolorperfectsquirell.jpg");
+    }
+  </style>
+  <title>Mr. ROgerRObOts World</title>
 </head>
 
 <body>
   <div class='container'>
-    <h1>Good neighbor, please input a number</h1>
+    <h1 id='title'>Good neighbor, please input a number</h1>
     <div>
       <form id='form-one'>
         <div class='form-group'>
-          <label for="userNum">Number Input:</label>
-          <input id="userNum" class="form-control" type="text">
+          <label for='userNum' id='number-title'>Number Input:</label>
+          <input id='userNum' class='form-control' type='text'>
         </div>
-        <button type="submit" class="btn btn-warning">Count like a '70's Robot!</button>
+        <button type='submit' class='btn btn-warning btn-lg btn-block'>Count like a '70's Robot!</button>
       </form>
       <div id='robot-speaks'>
         <p><span id='result'></span></p>
