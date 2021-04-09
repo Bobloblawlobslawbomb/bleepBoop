@@ -30,8 +30,34 @@ _{Leave nothing to chance. It should be easy for anyone to run your app. All the
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* Adds comma to last element 
+ 
+ _Would like to use this updated branching statement, however it does not provide the funtionality sought_
+
+ function beepBoop(userNumber) {
+  let createdArray = []
+  for (let index = 0; index <= userNumber; index += 1) {
+    if (index.toString().includes("3")) {
+      createdArray.push("Won't you be my neighbor?" + ",")
+    } else if (index.toString().includes("2")) {
+      createdArray.push("Boop!" + ",")
+    } else if (index.toString().includes("1")) {
+      createdArray.push("Beep!" + ",")
+    } else if (index === userNumber && index.toString().includes("1")) {
+      createdArray.slice(index)        //tried pop() too -why this no work?
+      createdArray.push("Beep!")
+    } else if (index === userNumber && index.toString().includes("2")) {
+      createdArray.slice(index)
+      createdArray.push("Boop!")
+    } else if (index === userNumber && index.toString().includes("3")) {
+      createdArray.slice(index)
+      createdArray.push("Won't you be my neighbor?")
+    } else {
+      createdArray.push(index + ",")
+    }
+  }
+  return createdArray
+}
 
 
 
