@@ -1,3 +1,11 @@
 #result {
-  display: none;
+  font-family: 'Abel', sans-serif;
+  font-size: larger;
+}
+h1#title{
+  color: rgb(116, 45, 138);
+  font-family: 'Londrina Solid', cursive;
+}
+label#number-title{
+  font-family: 'Londrina Solid', cursive;
 }
