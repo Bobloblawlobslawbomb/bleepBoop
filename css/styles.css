@@ -1,5 +1,6 @@
 #result {
-  display: none;
+  font-family: 'Abel', sans-serif;
+  font-size: larger;
 }
 
 h1#title{
@@ -8,8 +9,4 @@ h1#title{
 }
 label#number-title{
   font-family: 'Londrina Solid', cursive;
-}
-
-span#result{
-font-family: 'Abel', sans-serif;
 }

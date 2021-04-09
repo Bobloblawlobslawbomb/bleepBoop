@@ -15,7 +15,7 @@ let userString = ""
 function beepBoop(input) {
   userArray = [...Array(input + 1).keys()]
   userString = userArray.toString()
-  userArray = userArray.replace(/[1]{1,}/g, "beep!")
+  userArray = userArray.replace(/[1]{1,}/g, "beep!")//.includes is a key here an array and a string
   userArray = userArray.replace(/[2]{1,}/g, "boop!")
   userArray = userArray.replace(/[3]{1,}/g, "won't you be my neighbor?")
 }
@@ -28,9 +28,9 @@ $(document).ready(function () {
   $("#formOne").submit(function (e) {
     e.preventDefault();
     const personInput = parseInt($('input#userNum').val())
-    beepBoop(personInput)
+    let output = beepBoop(personInput)
     console.log(userArray)
-    $("#result").html(userString)
+    $("#result").html(output)
   })
 })
 
@@ -419,4 +419,35 @@ $(document).ready(function () {
     $("#result").html(userString)
   })
 })
+*/
+
+
+
+
+
+
+
+/*
+// function beepBoop(input) {
+//   let userArray = []
+//   userArray = [...Array(input + 1).keys()]
+//   //userString = userArray.toString()
+//   userArray = userArray.toString().replace(/[1]{1,}/g, "beep!")//.includes is a key here an array and a string
+//   userArray = userArray.toString().replace(/[2]{1,}/g, "boop!")
+//   userArray = userArray.toString().replace(/[3]{1,}/g, "won't you be my neighbor?")
+//   return userArray
+// }//still does "...9,beep!,0,beep!,beep!"
+
+
+
+
+
+// $(document).ready(function () {
+//   $("#formOne").submit(function (e) {
+//     e.preventDefault();
+//     const personInput = parseInt($('input#userNum').val())
+//     let output = beepBoop(personInput)
+//     console.log(output)
+//     $("#result").html(output)
+//   })
 */
