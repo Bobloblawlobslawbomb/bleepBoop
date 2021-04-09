@@ -1,14 +1,14 @@
-function beepBoop(userNumber) {//still need to add "," --think we can do it at the 'else' and after "neighbor?" 
+function beepBoop(userNumber) {
   let createdArray = []
   for (let index = 0; index <= userNumber; index += 1) {
     if (index.toString().includes("3")) {
-      createdArray.push("Won't you be my neighbor?")
+      createdArray.push("Won't you be my neighbor?" + ",")
     } else if (index.toString().includes("2")) {
-      createdArray.push("Boop!")
+      createdArray.push("Boop!" + ",")
     } else if (index.toString().includes("1")) {
-      createdArray.push("Beep!")
+      createdArray.push("Beep!" + ",")
     } else {
-      createdArray.push(index)
+      createdArray.push(index + ",")
     }
   }
   return createdArray
