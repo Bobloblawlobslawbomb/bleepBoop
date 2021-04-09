@@ -12,7 +12,7 @@ function beepBoop(userNumber) {//still need to add "," --think we can do it at t
     }
   }
   return createdArray
-}//also it doesnt 'exclude' meaning 12 =beep!
+}
 
 $(document).ready(function () {
   $("#form-one").submit(function (e) {
