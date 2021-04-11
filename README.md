@@ -63,14 +63,6 @@ createdArray.toString().replace(/(\W)(?!.*\W\1)/, "")
 
 _note_ (?!.*\W\1) --was found on StackOverflow as 'last occurence of regex word'... maybe it is looking to see if the thing to replace is just a '\W' and we need to ask is to look at '\W'-and any preceding characters
 
-## License [GPL] (https://choosealicense.com/licenses/gpl-3.0/)
-
-_if you do run into any issues or have questions, ideas, or concerns; I would greatly encourage you to send feedback or make a contribution to the code_
-
-## Contact Information
-
-_Contact Giancarlo Vigneri at: bobloblaw.vigneri@gmail.com_
-
 # Specs/Tests:
  _note: All tests are purely hypothetical at this point_
 
@@ -122,3 +114,11 @@ Describe: beepBoop()
 Test: "It should return an array of "0,Beep!,Boop!,Won't you be my neighbor?,4,...,9,Beep!,Beep!,Boop!,Won't you be my neighbor?" if the number 13 is input
 Code: beepBoop(13);
 Expected Output: [0,"Beep!","Boop!","Won't you be my neighbor?",4,...,9,"Beep!","Beep!","Boop!","Won't you be my neighbor?"]
+
+## License [GPL] (https://choosealicense.com/licenses/gpl-3.0/)
+
+_if you do run into any issues or have questions, ideas, or concerns; I would greatly encourage you to send feedback or make a contribution to the code_
+
+## Contact Information
+
+_Contact Giancarlo Vigneri at: bobloblaw.vigneri@gmail.com_
