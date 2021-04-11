@@ -13,19 +13,18 @@
 * _Arrays and Loops_
 * _TDD_
 
-
 ## Description
- _This program presents the user with a statement: "Heyo! Neighbor, please input a number" and provides a field to enter a number. Once the user has entered the number and pressed the button labeled: "Count like a friendly '70's Robot!" The page/program will display a string that follows the set of rules: "any number with a '1', but not a '2' or '3', will be replaced with 'Beep!'. Any number with a '2', but not a '3', will be replaced with 'Boop!'. Any number with a '3', will be replaced with 'Won't you be my neighbor?'" note- the page purports to allow the user to speak like a robot (it does not in fact provide this functionality)_
+ _This program presents the user with a statement: "Heyo! Neighbor, please input a number" and provides a field to enter a number. Once the user has entered the number and pressed the button labeled: "Count like a friendly '70's Robot!" The page/program will display an array that follows the set of rules: "any number with a '1', but not a '2' or '3', will be replaced with 'Beep!'. Any number with a '2', but not a '3', will be replaced with 'Boop!'. Any number with a '3', will be replaced with 'Won't you be my neighbor?'" note- the page purports to allow the user to speak like a robot (it does not in fact provide this functionality)_
 
 ## Setup/Installation Requirements
 
-*_This is the place_
-*_where one would_
-*_list setup instructions_
-*_in a simple and easy_
-*_to understand format_
-
-_{Leave nothing to chance. It should be easy for anyone to run your app. All the things necessary to make it happen, including otherr software or hardware setups needed. A good idea may be to delete the folder from your local machine and re-clone the project from Github and writting down all the necessary steps to get the application working again}_
+1. Navigate to (https://github.com/Bobloblawlobslawbomb/bleepBoop)
+2. Clone or download 'bleepBoop'
+3. Double click index.html or right-click, (select 'open with...') and choose which program to open or view files
+4. Once page has loaded you will be presented with a friendly statement and a field in which to enter a number.
+5. Next the user must either click on the button provided below the field or just simply press 'enter'.
+6. The page will display an array below the button made up of the elements of the array with a comma concatenated to the end of each element.
+7. You may enter another number and the page will display a new array following the same set of rules.
 
 ## Known Bugs
 
@@ -123,4 +122,3 @@ Describe: beepBoop()
 Test: "It should return an array of "0,Beep!,Boop!,Won't you be my neighbor?,4,...,9,Beep!,Beep!,Boop!,Won't you be my neighbor?" if the number 13 is input
 Code: beepBoop(13);
 Expected Output: [0,"Beep!","Boop!","Won't you be my neighbor?",4,...,9,"Beep!","Beep!","Boop!","Won't you be my neighbor?"]
-
