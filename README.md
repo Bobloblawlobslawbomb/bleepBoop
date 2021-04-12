@@ -31,8 +31,7 @@
 ### * Adds comma to last element 
  
 ##### _Would like to use this updated branching statement, however it does not provide the funtionality sought_
-
- function beepBoop(userNumber) {
+>function beepBoop(userNumber) {
   let createdArray = []
   for (let index = 0; index <= userNumber; index += 1) {
     if (index.toString().includes("3")) {
@@ -59,7 +58,7 @@
 
 ##### _Or a Regular Expression, similar to, but not:_
 
-createdArray.toString().replace(/(\W)(?!.*\W\1)/, "")
+>createdArray.toString().replace(/(\W)(?!.*\W\1)/, "")
 
 _note_ (?!.*\W\1) --was found on StackOverflow as 'last occurence of regex word'... maybe it is looking to see if the thing to replace is just a '\W' and we need to ask is to look at '\W'-and any preceding characters
 
