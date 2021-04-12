@@ -30,7 +30,7 @@
 
 ### * Adds comma to last element 
  
-##### _Would like to use this updated branching statement, however it does not provide the funtionality sought_
+##### _Would like to use this updated branching statement, however it does not provide the functionality sought_
 >function beepBoop(userNumber) {
   let createdArray = []
   for (let index = 0; index <= userNumber; index += 1) {
